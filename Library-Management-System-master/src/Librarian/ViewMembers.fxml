@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="482.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Librarian.ViewMembersController">
+   <children>
+      <TableView fx:id="viewmember" prefHeight="487.0" prefWidth="772.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="firstnamecolumn" prefWidth="117.0" text="First Name" />
+          <TableColumn fx:id="lastnamecolumn" prefWidth="108.0" text="Last Name" />
+            <TableColumn fx:id="dateofbirthcolumn" prefWidth="110.0" text="Date Of Birth" />
+            <TableColumn fx:id="dateofmembershipcolumn" minWidth="0.0" prefWidth="140.0" text="Date Of Membership" />
+            <TableColumn fx:id="addresscolumn" minWidth="0.0" prefWidth="75.0" text="Address" />
+            <TableColumn fx:id="contactnumbercolumn" minWidth="0.0" prefWidth="109.0" text="Contact Number" />
+            <TableColumn fx:id="emailadresscolumn" minWidth="0.0" prefWidth="81.0" text="Email" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
